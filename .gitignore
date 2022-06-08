@@ -30,3 +30,5 @@
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
 /vendor/*
+
+/node_modules/*

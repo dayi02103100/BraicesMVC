@@ -1,0 +1,62 @@
+.alerta{
+    padding: .5rem;
+    text-align: center;
+    color: $negro;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    
+    &.error{
+        background-color: $azul;
+    }
+
+    &.exito{
+        background-color: $Nclaro;
+        color: $negro;
+    }
+}
+
+table.propiedades{
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+    color: $negro;
+    text-align: center;
+    background-color: #9FC088;
+    border: solid $blanco;
+
+    
+    
+      th{
+            
+            color: $negro;
+            padding: 2rem;
+            border-bottom:solid  $blanco;
+            border-left:solid $blanco;
+            font-weight: 900;
+            text-transform: uppercase;
+
+
+        }
+       
+    
+
+    .imagen-tabla{
+        width: 20rem;
+        margin: auto;
+}
+
+.linea{
+    border-bottom: solid $blanco;
+    padding-top: 20px;
+        padding-bottom: 20px;
+
+
+}
+
+
+}
+
+.imagen-actualizar{
+    width: 40rem;
+}

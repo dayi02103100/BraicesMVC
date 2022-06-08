@@ -1,0 +1,29 @@
+.boton-amarillo {
+    @include boton($amarillo, inline-block);
+}
+
+.boton-amarillo-block {
+    @include boton($amarillo, block);
+}
+
+.boton-verde {
+    @include boton($verde, inline-block);
+}
+
+.boton-azul-block{
+    @include boton($azul, block);
+    width: 100%;
+    color: $negro;
+    text-transform: uppercase;
+}
+
+.boton-Nclaro-block{
+    @include boton($Nclaro, block);
+    text-transform: uppercase;
+    color: $negro;
+
+    .Nclaro{
+        color: $negro;
+
+    }
+}
