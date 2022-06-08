@@ -52,7 +52,7 @@ function mostrarMetodosContactos(e) {//evento = e
 
     if(e.target.value === 'telefono'){
         contactos.innerHTML = `     
-        <p>Elija la fecha y la hora</p>
+        <p>Selecciona la fecha y la hora</p>
 
         <label for="fecha">Fecha:</label>
         <input type="date" id="fecha" name="contacto[fecha]">
